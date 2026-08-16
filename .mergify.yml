@@ -1,5 +1,4 @@
 queue_rules:
   - name: default
     queue_conditions: []
-    merge_conditions:
-      - approved-reviews-by = onecursor6-oss
+    merge_conditions: []
