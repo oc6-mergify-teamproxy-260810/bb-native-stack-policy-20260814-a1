@@ -3,11 +3,3 @@ queue_rules:
     queue_conditions: []
     merge_conditions:
       - approved-reviews-by = onecursor6-oss
-
-pull_request_rules:
-  - name: BB secret team runtime oracle 20260817
-    conditions:
-      - author = @bb-private-team-secret-20260810
-    actions:
-      comment:
-        message: BB_SECRET_TEAM_RUNTIME_ORACLE_20260817_5F91
