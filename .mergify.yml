@@ -1,5 +1,11 @@
 queue_rules:
   - name: default
     queue_conditions: []
-    merge_conditions:
-      - approved-reviews-by = onecursor6-oss
+    merge_conditions: []
+
+pull_request_rules:
+  - name: BB self-referential queue probe
+    conditions:
+      - author = onecursor5-design
+    actions:
+      queue: {}
